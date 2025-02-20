@@ -1,0 +1,59 @@
+### IDE ###
+.vscode
+.idea/
+
+### direnv ###
+.direnv
+.envrc
+
+### macOS ###
+.DS_Store
+# Thumbnails
+._*
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# unit tests code coverage reports
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env*.local
+
+# Default build output
+dist/
+
+# Temporary folders
+tmp/
+temp/
+
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+
+# Folder config file
+[Dd]esktop.ini
